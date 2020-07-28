@@ -1,0 +1,16 @@
+.main{
+    align-content: center;
+    padding: 50px;
+}
+button btn{
+    width:20%;
+    height:35px;
+    border-radius: 5px;
+  }
+  input:invalid{
+    border: 2px solid rgb(212, 53, 41);
+  }
+  
+  input:valid{
+    border: 2px solid rgba(187, 248, 74, 0.747);
+  }

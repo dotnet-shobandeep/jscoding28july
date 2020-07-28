@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Registration Form</Form>
+        </title>
+        <link href="css/form.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+    
+    </head>
+    <body class="main">
+        <div class="row">
+            <div class=""></div>
+               <div class="shadow">
+                <h3 style="text-align: center;">Register Us</h3>
+                <form >
+                    <label for="user">Username:</label><br>
+                    <input type="text" id="user" name="fname" required minlength="3" placeholder="Enter username"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="mail" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Enter email"><br><br>
+                    <label for="pass">Password:</label><br>
+                    <input type="text" id="pass" name="password" required minlength="6" placeholder="Enter password"><br><br>
+                    <label for="cpass">confirm Password:</label><br>
+                    <input type="text" id="cpass" name="confirm password" aria-required="Password2 is required" placeholder="Enter password again"><br><br>
+                    <button class="btn btn-outline-primary btn-block" type="submit">Submit</button>
+                  </form>
+                </div>
+                </div>
+        </div>
+        <script src="js/formjs.js"></script>
+    </body>
+</html>
